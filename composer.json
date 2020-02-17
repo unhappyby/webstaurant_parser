@@ -1,0 +1,9 @@
+{
+    "name": "unhappyby/webstaurant",
+    "require": {
+        "amphp/http-client": "^4.1",
+        "phpoffice/phpspreadsheet": "^1.10",
+        "symfony/css-selector": "^5.0",
+        "symfony/dom-crawler": "^5.0"
+    }
+}
