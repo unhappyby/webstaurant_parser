@@ -29,7 +29,7 @@ $sheet->fromArray([
 $rowIndex = 2;
 unset($sheet);
 
-$productLinksPath = getopt("p:")[0] ?? null;
+$productLinksPath = getopt('p:')['p'] ?? null;
 
 if (null === $productLinksPath) {
     echo 'Укажи путь к файлу со ссылками с помощью аргумента `-p`' . PHP_EOL;
